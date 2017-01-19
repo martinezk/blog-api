@@ -1,0 +1,25 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "an api for a blog",
+  "main": "models.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinezk/blog-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinezk/blog-api/issues"
+  },
+  "homepage": "https://github.com/martinezk/blog-api#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "uuid": "^3.0.1"
+  }
+}
