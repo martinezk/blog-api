@@ -9,10 +9,6 @@ const app = express();
 // log the http layer
 app.use(morgan('common'));
 
-app.get('/', (req, res) => {
-  res.json(BlogPosts.get());
-});
-
 app.use('/blog-posts', blogPostRouter);
 
 app.listen(process.env.PORT || 8080, () => {
